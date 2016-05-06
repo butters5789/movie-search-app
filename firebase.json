@@ -1,0 +1,9 @@
+{
+  "firebase": "brad-butterfield-movie-search-app",
+  "public": "./",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}
