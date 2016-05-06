@@ -1,0 +1,10 @@
+<div class="row">
+    <span ng-repeat="item in view.omdbData">
+        <div class="col-md-6">
+            <div class="well">
+                <h4>Title: <a href="/movie" ng-click="view.grabMovie(item.imdbID)">{{ item.Title }}</a></h4>
+                <h5>Year: {{ item.Year }}</h5>
+            </div>
+        </div>
+    </span>
+</div>

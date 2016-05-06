@@ -1,0 +1,15 @@
+<div class="form-group">
+    <label for="movieSearch">Enter a movie by title.</label>
+    <input  id="movieSearch"
+            class="form-control"
+            type="text"
+            name="movieSearch"
+            placeholder="Enter a movie ..."
+            ng-model="view.movieSearch">
+</div>
+
+<div class="form-group">
+    <button type="submit" class="btn btn-primary" ng-click="view.findMovie(view.movieSearch)">
+        Search <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>
+    </button>
+</div>
